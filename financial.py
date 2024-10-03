@@ -2,7 +2,6 @@ import os
 import streamlit as st
 import fitz  # PyMuPDF for PDF extraction
 from groq import Groq
-load_dotenv()
 # Initialize the Groq client with the API key from environment variables
 groq_api_key = os.getenv("GROQ_API_KEY")
 
