@@ -1,6 +1,5 @@
 import os
 import streamlit as st
-from dotenv import load_dotenv
 import fitz  # PyMuPDF for PDF extraction
 from groq import Groq
 load_dotenv()
